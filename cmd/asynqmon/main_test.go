@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/awanganddong/asynq"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hibiken/asynq"
 )
 
 func TestParseFlags(t *testing.T) {
